@@ -1,0 +1,15 @@
+enable : true
+heading : The
+headingSpan : Motivation
+aboutItem : 
+- icon : tf-tools
+  title : We care.
+  content : Helping improving the safety of people all around the world.
+
+- icon : tf-strategy
+  title : We prevent.
+  content : Provide help to avoid thefts and accidents at various locations.
+
+- icon : tf-anchor2
+  title : We validate.
+  content : Provide background check for new and existing people for improving surveillance.

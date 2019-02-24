@@ -1,0 +1,27 @@
+enable : true
+heading : Our
+headingSpan : Application 
+serviceItem :
+  - icon : tf-globe
+    title : Human Face Recognition
+    content : Find out the the different people in an images or a video.
+    
+  - icon : tf-ion-laptop
+    title : Dynamic Security
+    content : Real-time updates to the personel database for dynamic security.
+    
+  - icon : tf-genius
+    title : User Feedback 
+    content : Get the new users information and consent to label the unknown faces.
+    
+  - icon : tf-dial
+    title : User Survelliance
+    content : Look up users in available knowledge base and mark as safe or a threat.
+    
+  - icon : tf-target3
+    title :  In depth Authentication
+    content : Making use of multiple facial poses for in depth-verfication.
+    
+  - icon : tf-lifesaver
+    title : Real-time Recognition
+    content : Recognition of human faces for real time video stream.

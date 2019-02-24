@@ -1,0 +1,96 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "Watchman"
+theme = "meghna-hugo"
+
+
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "Goals"
+    URL = "about"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Application"
+    URL = "services"
+    weight = 3
+
+    [[menu.nav]]
+    name = "GitHub"
+	identifier = "GitHub"
+    URL = "https://google.com"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Team"
+    URL = "our-team"
+    weight = 4
+
+    [[menu.nav]]
+    name = "Operate"
+    URL = "blog"
+    weight = 5
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "contact-us"
+    weight = 6
+
+# Site params
+[params]
+home= "Home"
+logo = "images/logo.png"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+# Meta data
+description = "Making the world a secure place"
+author = "WatchmanTeam"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+custom_css = ["css/custom.css"]
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/backgrounds/background.jpg"
+    icon = "tf-ion-play"
+    heading = "Experience the unknown!!"
+    content= "Are you ready to know ?"
+    btn = true
+    btnText="Explore us"
+    btnURL="#about"
+
+    # footer
+    [params.footer]
+        copyright = "Watchman Team"
+        copyrightURL = "http://www.ashwanikhemani.github.io"
+
+        # social Icons
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-facebook"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-twitter"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-google-outline"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-youtube"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-linkedin"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-dribbble-outline"
+        url = "#"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-pinterest-outline"
+        url = "#"
